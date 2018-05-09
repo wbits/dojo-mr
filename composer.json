@@ -7,14 +7,14 @@
     "autoload": {
         "psr-4": {
             "Dojo\\MarsRover\\": [
-                "/src"
+                "src/"
             ]
         }
     },
     "autoload-dev": {
         "psr-4": {
             "unit\\Dojo\\MarsRover\\": [
-                "/tests"
+                "tests/"
             ]
         }
     }
