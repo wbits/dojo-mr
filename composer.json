@@ -1,0 +1,21 @@
+{
+    "name": "dick/mars-rover",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dojo\\MarsRover\\": [
+                "/src"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "unit\\Dojo\\MarsRover\\": [
+                "/tests"
+            ]
+        }
+    }
+}
